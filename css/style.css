@@ -315,9 +315,9 @@
    
    @media only screen and (max-width: 1450px) {
     .row{
+      overflow-x: scroll !important;
       position: relative;
       min-height: 1000px;
-      min-width: 500px;
       height: 120%;
       background-color: white;
     }
@@ -330,7 +330,7 @@
      height: auto;
      position: relative;
      bottom: 9%;
-     transform: translate(-190px, 150px);
+     transform: translate(-200px, 150px);
      border:10px solid #a0d3f581;
      border-radius: 500px;
      -webkit-border-radius: 500px;
@@ -346,17 +346,17 @@
     }
     .about-me-sec{
       position: absolute;
-      min-width: 600px;
-      width: 500px;
+      max-width: 500px;
+      width: 70%;
       left: 50%;
       top: 28%;
       height: 550px;
-      transform: translate(-270px, 200px);
+      transform: translate(-220px, 160px);
     }
     .about-me-text{
       font-size: 30px;
       text-align: center;
-      width: 400px !important;
+      width: 300px !important;
       word-wrap: break-word;
     }
   
