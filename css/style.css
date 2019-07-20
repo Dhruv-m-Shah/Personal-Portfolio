@@ -237,6 +237,22 @@
      grid-gap: 50px;
      background-color: whitesmoke;
    }
+   .projects{
+     height: 100%;
+     background-color: whitesmoke;
+     opacity: 0;
+     transform: translateY(50px);
+     transition: all 1s ease-out;
+   }
+   .projects.fade-in{
+     opacity: 1;
+     transform: translateY(0);
+   }
+   .projects-title{
+     text-align: center;
+     padding-top:10px;
+     padding-bottom: 10px;
+   }
    .test{
      background-size: cover;
      min-height: 180px;
